@@ -1,10 +1,10 @@
 
-// for loop with lists 
-// var fruits = [ "apple", "orange" , "bannana" ]
-// for _ in fruits {
-//         print (fruits)
+for loop with lists 
+var fruits = [ "apple", "orange" , "bannana" ]
+for _ in fruits {
+        print (fruits)
         
-// }
+}
 
 /* 
 output like that:
@@ -14,11 +14,12 @@ output like that:
 ["apple", "orange", "bannana"]
 
 */
-// var fruits = [ "apple", "orange" , "bannana" ]
-// for items in fruits {
-//         print (items)
+
+var fruits = [ "apple", "orange" , "bannana" ]
+for items in fruits {
+        print (items)
         
-// }
+}
 /*
 output like that:
 apple
@@ -31,9 +32,9 @@ bannana
 
 // for loop with indexs 
 
-// for index in 1...5{
-//         print ("Hello", index)
-// }
+for index in 1...5{
+        print ("Hello", index)
+}
 
 
 ////////////////////////////////////////////////////////
@@ -47,32 +48,32 @@ continue جملة التكرار تتوقف وتنتقل لتكرار التعل
 
 // for index in 1...10 {
 
-// if index % 2 == 0 {
-//  continue 
+if index % 2 == 0 {
+ continue 
         
-// }
-//         print ("\(index), is odd")
-// }
+}
+        print ("\(index), is odd")
+}
 
 // method of break : all loop statement finished 
 
-// for index in 1...10 {
+for index in 1...10 {
 
-// if index % 2 == 0 {
-//  break  
+if index % 2 == 0 {
+ break  
         
-// }
-//         print ("\(index), is odd")
-// }
+}
+        print ("\(index), is odd")
+}
 
-// for number in 1...10 {
-// if number == 5 {
+for number in 1...10 {
+if number == 5 {
 
-// continue
+continue
 
-// }
+}
 
-// print(number)
+print(number)
 
-// }
+}
 
